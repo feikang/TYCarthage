@@ -15,7 +15,7 @@
 		74DC28B91F2B1BED00030973 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28B81F2B1BED00030973 /* CoreTelephony.framework */; };
 		74DC28BB1F2B1C0400030973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28BA1F2B1C0400030973 /* UIKit.framework */; };
 		74DC28BD1F2B25DE00030973 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28BC1F2B25DE00030973 /* tingyunApp.framework */; };
-		74DC28BF1F2B25E400030973 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC28BE1F2B25E400030973 /* NBSAppAgent.h */; };
+		74DC28BF1F2B25E400030973 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC28BE1F2B25E400030973 /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -347,6 +347,7 @@
 				74DC28991F2ADC3C00030973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
