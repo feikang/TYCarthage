@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DC28A91F2B19AD00030973 /* TYAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC28A71F2B19AD00030973 /* TYAppAgent.h */; };
+		74DC28AA1F2B19AD00030973 /* TYAppAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC28A81F2B19AD00030973 /* TYAppAgent.m */; };
+		74DC28B31F2B1BBF00030973 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28B21F2B1BBF00030973 /* libz.tbd */; };
+		74DC28B51F2B1BC800030973 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28B41F2B1BC800030973 /* SystemConfiguration.framework */; };
+		74DC28B71F2B1BD000030973 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28B61F2B1BD000030973 /* Security.framework */; };
+		74DC28B91F2B1BED00030973 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28B81F2B1BED00030973 /* CoreTelephony.framework */; };
+		74DC28BB1F2B1C0400030973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28BA1F2B1C0400030973 /* UIKit.framework */; };
+		74DC28BD1F2B25DE00030973 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC28BC1F2B25DE00030973 /* tingyunApp.framework */; };
+		74DC28BF1F2B25E400030973 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC28BE1F2B25E400030973 /* NBSAppAgent.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74DC288F1F2ADC3C00030973 /* TYCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC28931F2ADC3C00030973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DC28A71F2B19AD00030973 /* TYAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAppAgent.h; sourceTree = "<group>"; };
+		74DC28A81F2B19AD00030973 /* TYAppAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAppAgent.m; sourceTree = "<group>"; };
+		74DC28B21F2B1BBF00030973 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		74DC28B41F2B1BC800030973 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74DC28B61F2B1BD000030973 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74DC28B81F2B1BED00030973 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		74DC28BA1F2B1C0400030973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74DC28BC1F2B25DE00030973 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
+		74DC28BE1F2B25E400030973 /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBSAppAgent.h; path = tingyunApp.framework/Headers/NBSAppAgent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DC288B1F2ADC3C00030973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC28BB1F2B1C0400030973 /* UIKit.framework in Frameworks */,
+				74DC28B91F2B1BED00030973 /* CoreTelephony.framework in Frameworks */,
+				74DC28B71F2B1BD000030973 /* Security.framework in Frameworks */,
+				74DC28B51F2B1BC800030973 /* SystemConfiguration.framework in Frameworks */,
+				74DC28B31F2B1BBF00030973 /* libz.tbd in Frameworks */,
+				74DC28BD1F2B25DE00030973 /* tingyunApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DC28851F2ADC3C00030973 = {
+			isa = PBXGroup;
+			children = (
+				74DC28BE1F2B25E400030973 /* NBSAppAgent.h */,
+				74DC28BC1F2B25DE00030973 /* tingyunApp.framework */,
+				74DC28911F2ADC3C00030973 /* TYCarthage */,
+				74DC28901F2ADC3C00030973 /* Products */,
+				74DC28B11F2B1BBF00030973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74DC28901F2ADC3C00030973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DC288F1F2ADC3C00030973 /* TYCarthage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DC28911F2ADC3C00030973 /* TYCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				74DC28A71F2B19AD00030973 /* TYAppAgent.h */,
+				74DC28A81F2B19AD00030973 /* TYAppAgent.m */,
+				74DC28931F2ADC3C00030973 /* Info.plist */,
+			);
+			path = TYCarthage;
+			sourceTree = "<group>";
+		};
+		74DC28B11F2B1BBF00030973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DC28BA1F2B1C0400030973 /* UIKit.framework */,
+				74DC28B81F2B1BED00030973 /* CoreTelephony.framework */,
+				74DC28B61F2B1BD000030973 /* Security.framework */,
+				74DC28B41F2B1BC800030973 /* SystemConfiguration.framework */,
+				74DC28B21F2B1BBF00030973 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74DC288C1F2ADC3C00030973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC28BF1F2B25E400030973 /* NBSAppAgent.h in Headers */,
+				74DC28A91F2B19AD00030973 /* TYAppAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74DC288E1F2ADC3C00030973 /* TYCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC28971F2ADC3C00030973 /* Build configuration list for PBXNativeTarget "TYCarthage" */;
+			buildPhases = (
+				74DC288A1F2ADC3C00030973 /* Sources */,
+				74DC288B1F2ADC3C00030973 /* Frameworks */,
+				74DC288C1F2ADC3C00030973 /* Headers */,
+				74DC288D1F2ADC3C00030973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYCarthage;
+			productName = TYCarthage;
+			productReference = 74DC288F1F2ADC3C00030973 /* TYCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DC28861F2ADC3C00030973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kang;
+				TargetAttributes = {
+					74DC288E1F2ADC3C00030973 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A5AELP7T27;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74DC28891F2ADC3C00030973 /* Build configuration list for PBXProject "TYCarthage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74DC28851F2ADC3C00030973;
+			productRefGroup = 74DC28901F2ADC3C00030973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DC288E1F2ADC3C00030973 /* TYCarthage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DC288D1F2ADC3C00030973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DC288A1F2ADC3C00030973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC28AA1F2B19AD00030973 /* TYAppAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74DC28951F2ADC3C00030973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74DC28961F2ADC3C00030973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74DC28981F2ADC3C00030973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5AELP7T27;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYCarthage",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TYCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.networkbench.TYCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74DC28991F2ADC3C00030973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5AELP7T27;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYCarthage",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TYCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.networkbench.TYCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DC28891F2ADC3C00030973 /* Build configuration list for PBXProject "TYCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC28951F2ADC3C00030973 /* Debug */,
+				74DC28961F2ADC3C00030973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC28971F2ADC3C00030973 /* Build configuration list for PBXNativeTarget "TYCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC28981F2ADC3C00030973 /* Debug */,
+				74DC28991F2ADC3C00030973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DC28861F2ADC3C00030973 /* Project object */;
+}
